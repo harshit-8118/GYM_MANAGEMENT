@@ -1,0 +1,44 @@
+1. admin - 
+attrs => admin_id, admin_name, admin_age, admin_email, admin_contact, admin_username, admin_password
+
+
+2. category - 
+attrs => category_id, category_name, category_description
+
+
+3. group - 
+attrs => group_id, group_name, group_description
+
+
+4. member - 
+attrs => member_id, member_img, member_name, member_gender, member_birth, member_group, member_addr, member_city, member_state, member_contact, member_email, member_weight, member_height, member_chest, member_waist, member_thigh, member_arm, member_fat, staff_member, membership, start_date, end_date
+
+
+5. attendance - 
+attrs => attendance_id, attendance_status, attendance_date, member_id
+
+
+6. role -
+attrs => role_id, role_name, role_description
+
+
+7. membership -
+attrs => membership_id, membership_name, membership_category, membership_period, membership_amount, membership_description
+
+
+8. settings - 
+attrs => gym_id, gym_name, gym_logo, gym_currency
+
+
+9. staff_member - 
+attrs => staff_id, staff_img, staff_name, staff_gender, staff_birth, staff_role, staff_specialization, staff_addr, staff_city, staff_state, staff_contact, staff_email
+
+
+10. specialization - 
+attrs => speci_id, speci_name, speci_description
+
+
+11. staff_attendance
+attrs => att_id, att_status, att_date, staff_id
+
+
